@@ -11,20 +11,29 @@
 
     <!-- Nav bar -->
 
-    <div class="container fixed-top" id = 'navbar'>
-        <div class="navbar">
-            <a href="#home" class="logo">
-                <img src="practice_Website/logo.png" class="img-nav">
-            </a>
-            <div>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#feature">FEATURE</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pricing">PRICING</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
-                    <li class="nav-item"><a class="btn btn-outline" href="#">Download</a></li>
-                </ul>
+    <div class="navbar fixed-top" id="navbar">
+        <div class="nav-container">
+            <div class="nav-flex">
+                <div class="nav-col">
+                    <img src="practice_Website/logo.png" class="img-nav">
+                </div>
+                <div class="btn-col">
+                    <button id class="nav-btn">
+                        <svg class="resizing" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>  
+                    </button>                            
+                </div>
+                <div class="nav-col nav-col-list">
+                    <ul id="nav-links-list" class="list-flex links">
+                        <li class="list-row"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="list-row"><a href="#feature" class="nav-link">Feature</a></li>
+                        <li class="list-row"><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li class="list-row"><a href="#pricing" class="nav-link">Pricing</a></li>
+                        <li class="list-row"><a href="#contact" class="nav-link">Contact</a></li>
+                        <li class="list-row"><a class="btn btn-outline" href="#">Download</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -111,11 +120,11 @@
                 <p>Feature</p>
                 <h2>Do more with our App</h2>
             </div>
-            <ul class="S3.nav S3-navbar">
-                <li class="S3-nav-item"><a  onclick="Tabs(event)" class="S3-nav-link S3-active">Communicate</a></li>
-                <li class="S3-nav-item"><a  onclick="Tabs(event)" class="S3-nav-link">Scheduling</a></li>
-                <li class="S3-nav-item"><a  onclick="Tabs(event)" class="S3-nav-link">Messages</a></li>
-                <li class="S3-nav-item"><a  onclick="Tabs(event)" class="S3-nav-link">Live Chat</a></li>
+            <ul class="section3-flex" >
+                <li class="section3-items S3-active" onclick="Tabs(event)">Communicate</li>
+                <li class="section3-items" onclick="Tabs(event)">Scheduling</li>
+                <li class="section3-items" onclick="Tabs(event)">Messages</li>
+                <li class="section3-items" onclick="Tabs(event)">Live Chat</li>
             </ul>
             <div class="tab-content tab-active" id="communicate">
                 <div class="flex">
@@ -212,7 +221,7 @@
                         </div>
                     </li>
                 </ul>
-                <div>
+                <div class="img-center">
                     <img src="practice_Website/iphonex.png" class="img-nav">
                 </div>
             </div>
@@ -248,7 +257,6 @@
                     <small>United States</small>
                 </div>
                 <div class="arrow-btn"><a class="ti-arrow-right" id="Forw" onclick="next()"></a></div>
-            </div>
             </div>
         </div>
     </div>
@@ -348,7 +356,7 @@
 
     <!-- Section 9 [FAQs section]-->
 
-    <div class="section9">
+    <section class="section9"  id="contact">
         <div class="section9-container">
             <div class="section9-title">
                 <p>FAQs</p>
@@ -377,7 +385,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Section 10 [Download Section] -->
 
@@ -391,10 +399,10 @@
                 <p>Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment.</p>
                 <div class="btn-flex">
                     <div class="section10-btn">
-                        <a href="#" class="section10-link"><img src="practice_Website/appleicon.png">App Store</a>
+                        <a href="#" class="section10-link"><img class="img-nav" src="practice_Website/appleicon.png">App Store</a>
                     </div>
                     <div class="section10-btn">
-                        <a href="#" class="section10-link"> <img src="practice_Website/playicon.png">Google Store</a>
+                        <a href="#" class="section10-link"><img class="img-nav" src="practice_Website/playicon.png">Google Store</a>
                     </div>
                 </div>
                 <p>Works on iOS 10.0.5+, Android Kitkat and above.</p>
@@ -404,27 +412,26 @@
 
     <!-- Section 11 [contact section]-->
 
-    <section class="section11" id="contact">
+    <div class="section11">
         <div class="section11-container">
             <div class="section11-flex">
                 <div class="address">
                     <p><span class="ti-location-pin "></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>
-                    <div class="s10-row">
+                    <div class="s11-row">
                         <p><span class="ti-email"></span><a href="mailto:support@mobileapp.com">support@mobileapp.com</a></p>
                         <p><span class="ti-headphone"><a href="tel:51836362800">518-3636-2800</a></span></p>
                     </div>
                 </div>
-                <div class="s10-col">
-                    <div class="s10-row-v2">
+                <div class="s11-col">
+                    <div class="s11-row-v2">
                         <a href="#"><span class="ti-facebook"></span></a>
                         <a href="#"><span class="ti-twitter"></span></a>
                         <a href="#"><span class="ti-instagram"></span></a>
                     </div>
                 </div>
-                <div></div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Footer -->
 
