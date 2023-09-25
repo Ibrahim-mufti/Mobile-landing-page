@@ -1,0 +1,180 @@
+                <!-- TIME TABLE A  -->
+            : 9 30 - 11         differential  C
+            : 3 30 - 5          compiler A
+
+Wednesday 
+            : 9 30 - 11         DAA  A
+            : 11 - 12 30        DB   C
+            : 2 - 3 30          differential C
+            : 3 30 - 5          numerical C
+thursday 
+            : 8 - 9 30          compiler  A
+            : 9 30 - 11         DAA  A
+            : 11 - 12 30        DB   C
+            : 3 30 - 5          numerical C
+
+friday         
+            : 8 - 11            DB lab  C 
+
+                <!-- TIME TBALE B -->
+
+tuesday     : 8 - 3 30          numerical B
+            : 9 30 - 11         differential  C
+            : 12 30 - 2         compiler    B
+            
+
+Wednesday 
+            : 9 30 - 11         DAA  A
+            : 11 - 12 30        DB   C
+            : 2 - 3 30          differential C
+thursday 
+            : 9 30 - 11         DAA  A
+            : 11 - 12 30        DB   C
+            : 3 30 - 5          compiler b
+
+friday         
+            : 8 - 11            DB lab  c 
+            : 3 30 - 5          numerical B
+
+
+
+
+
+
+
+            <div class="container fixed-top" id = 'navbar'>
+                <div class="navbar">
+                    <a href="#home" class="logo">
+                        <img src="practice_Website/logo.png" class="img-nav">
+                    </a>   
+                    <div>                
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#feature">FEATURE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pricing">PRICING</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                            <li class="nav-item"><a class="btn btn-outline" href="#">Download</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            .nav{
+                display: flex;
+                padding-left: 400px;
+            }
+            .nav-item{
+                list-style: none;
+                padding-left: 3rem;
+            }
+            .nav-item #home{
+                padding-left: 0;
+            }
+            .navbar{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+            
+            }
+            .nav-link{
+                color: rgba(255,255,255,.5);
+                font-size: 14px;
+                padding-bottom: 3px;
+            
+            }
+            .nav-link:hover{
+                color: #f5eff7;
+            }
+            .active{
+                list-style: none;
+                color: white;
+                border-bottom: 2px solid #cd99d4
+            }
+            .logo{
+            
+                display: flex;
+                padding-top: 0.3125rem;
+                padding-bottom: 0.3125rem;
+                font-size: 1.25rem;
+                line-height: inherit;
+                white-space: nowrap;
+            }
+            a{
+                text-decoration: none;
+                background-color: transparent;
+            }
+            .img-nav{
+                max-width: 100%;
+                height: auto;
+            }
+            img{
+                vertical-align: middle;
+                border-style: none;
+                box-sizing: border-box;
+                overflow: clip;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 28px;
+                padding-bottom: 18px;
+            }
+            .scrolled{
+                padding-top: 10px;
+                transition: all .3s ease;
+                background: linear-gradient(to right, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+                font-weight: bold;
+            }
+            .fixed-top{
+                position: fixed;
+                top:0;
+                right:0;
+                left:0;
+                z-index: 1030;
+            }
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
